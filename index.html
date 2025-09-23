@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Violator - Unholy Retribution</title>
+    <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&family=Cinzel:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/violator.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar-container">
+            <a href="#" class="navbar-logo">Violator</a>
+        
+            <button class="navbar-toggler" type="button" aria-label="Toggle navigation">
+                <span class="toggler-icon"></span>
+                <span class="toggler-icon"></span>
+                <span class="toggler-icon"></span>
+            </button>
+            
+            <ul class="navbar-menu">
+                <li class="navbar-item"><a href="#hero" class="navbar-link">Início</a></li>
+                <li class="navbar-item"><a href="#sobre" class="navbar-link">Sobre</a></li>
+                <li class="navbar-item"><a href="#discografia" class="navbar-link">Discografia</a></li>
+                <li class="navbar-item"><a href="#shows" class="navbar-link">Shows</a></li>
+                <li class="navbar-item"><a href="#contato" class="navbar-link">Contato</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <section class="banner" id="hero">
+        <div class="banner-content">
+            <img src="imgs/Violator - Unholy Retribution.png" alt="Capa do álbum" class="album-cover">
+            <h1>Unholy Retribution</h1>
+            <p>O novo álbum de Violator já está disponível! Mergulhe no som mais brutal do thrash metal contemporâneo.</p>
+            <div class="social-icons">
+                <a href="https://open.spotify.com" target="_blank"><i class="bi bi-spotify"></i></a>
+                <a href="https://www.youtube.com" target="_blank"><i class="bi bi-youtube"></i></a>
+                <a href="https://www.deezer.com" target="_blank"><i class="bi bi-music-note-beamed"></i></a>
+            </div>
+            <a href="https://open.spotify.com" target="_blank" class="listen-btn">Ouça Agora</a>
+        </div>
+    </section>
+
+    <section id="shows">
+        <h2 class="section-title">Próximos Shows</h2>
+        <div class="shows-grid">
+            <div class="show-card fade-in">
+                <h3>São Paulo - Brasil</h3>
+                <p>15 de Outubro, 2025</p>
+                <p>Audio Club</p>
+                <a href="#" class="btn-buy">Comprar Ingresso</a>
+            </div>
+            <div class="show-card fade-in">
+                <h3>Oslo - Noruega</h3>
+                <p>28 de Novembro, 2025</p>
+                <p>Rockefeller Music Hall</p>
+                <a href="#" class="btn-buy">Comprar Ingresso</a>
+            </div>
+            <div class="show-card fade-in">
+                <h3>Berlin - Alemanha</h3>
+                <p>12 de Dezembro, 2025</p>
+                <p>Columbia Theater</p>
+                <a href="#" class="btn-buy">Comprar Ingresso</a>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contato">
+        <h2>Contato</h2>
+        <div class="card-form">
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome" required>
+                    <div class="error-message">Por favor, insira seu nome</div>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" required>
+                    <div class="error-message">Por favor, insira um email válido</div>
+                </div>
+
+                <div class="form-group">
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" name="telefone" id="telefone">
+                </div>
+
+                <div class="form-group">
+                    <label for="assunto">Assunto:</label>
+                    <input type="text" name="assunto" id="assunto" required>
+                    <div class="error-message">Por favor, insira um assunto</div>
+                </div>
+
+                <div class="form-group">
+                    <label for="descricao">Mensagem:</label>
+                    <textarea name="descricao" id="descricao" rows="4" required></textarea>
+                    <div class="error-message">Por favor, insira uma mensagem</div>
+                </div>
+
+                <button type="submit" class="btn" id="submit-btn">Enviar</button>
+            </form>
+        </div>
+
+        <div class="socials">
+            <a href="#">Instagram</a>
+            <a href="#">YouTube</a>
+            <a href="#">Spotify</a>
+            <a href="#">Bandcamp</a>
+        </div>
+        <p>&copy; 2025 Violator. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
