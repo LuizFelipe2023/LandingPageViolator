@@ -141,7 +141,7 @@
      text-align: center;
      min-height: 100vh;
      background: linear-gradient(rgba(10, 10, 10, 0.7), rgba(10, 10, 10, 0.9)),
-         url('imgs/Violator\ -\ Unholy\ Retribution.png') no-repeat center center/cover;
+         url('/imgs/Violator.png') no-repeat center center/cover;
      padding-top: 80px;
  }
 
