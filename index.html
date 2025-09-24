@@ -7,21 +7,23 @@
     <title>Violator - Unholy Retribution</title>
     <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&family=Cinzel:wght@400;700&display=swap"
         rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/violator.css">
+    <link rel="stylesheet" href="css/carrousel.css">
 </head>
 
 <body>
     <div class="navbar">
         <div class="navbar-container">
             <a href="#" class="navbar-logo">Violator</a>
-        
+
             <button class="navbar-toggler" type="button" aria-label="Toggle navigation">
                 <span class="toggler-icon"></span>
                 <span class="toggler-icon"></span>
                 <span class="toggler-icon"></span>
             </button>
-            
+
             <ul class="navbar-menu">
                 <li class="navbar-item"><a href="#hero" class="navbar-link">Início</a></li>
                 <li class="navbar-item"><a href="#sobre" class="navbar-link">Sobre</a></li>
@@ -36,15 +38,87 @@
         <div class="banner-content">
             <img src="imgs/Violator.png" alt="Capa do álbum" class="album-cover">
             <h1>Unholy Retribution</h1>
-            <p>O novo álbum de Violator já está disponível! Mergulhe no som mais brutal do thrash metal contemporâneo.</p>
+            <p>O novo álbum de Violator já está disponível! Mergulhe no som mais brutal do thrash metal contemporâneo.
+            </p>
             <div class="social-icons">
-                <a href="https://open.spotify.com" target="_blank"><i class="bi bi-spotify"></i></a>
-                <a href="https://www.youtube.com" target="_blank"><i class="bi bi-youtube"></i></a>
-                <a href="https://www.deezer.com" target="_blank"><i class="bi bi-music-note-beamed"></i></a>
+                <a href="https://open.spotify.com/intl-pt/album/49jf5Qqvx0ER8IED8Nj7Wq" target="_blank"><i
+                        class="bi bi-spotify"></i></a>
+                <a href="https://www.youtube.com/watch?v=Ff8q-2pPa8E&list=RDFf8q-2pPa8E&start_radio=1&t=132s"
+                    target="_blank"><i class="bi bi-youtube"></i></a>
+                <a href="https://www.deezer.com/br/album/793760351" target="_blank"><i
+                        class="bi bi-music-note-beamed"></i></a>
             </div>
-            <a href="https://open.spotify.com" target="_blank" class="listen-btn">Ouça Agora</a>
+            <div class="action-buttons">
+                <a href="https://open.spotify.com/intl-pt/album/49jf5Qqvx0ER8IED8Nj7Wq" target="_blank"
+                    class="listen-btn">Ouça Agora</a>
+                <a href="https://www.killagainrec.com/pd-97de7b-cd-violator-unholy-retribution-slipcase.html?ct=&p=1&s=1"
+                    class="listen-btn">Compre Agora</a>
+            </div>
         </div>
     </section>
+
+    <section id="sobre" class="sobre">
+        <h2 class="section-title">Sobre a Banda</h2>
+        <div class="sobre-container">
+            <div class="sobre-text">
+                <p>
+                    Formada em Brasília em 2002, o <strong>Violator</strong> é uma das maiores referências do thrash
+                    metal brasileiro.
+                    Com letras agressivas, riffs rápidos e energia explosiva no palco, a banda conquistou fãs ao redor
+                    do mundo.
+                </p>
+                <p>
+                    Desde o lançamento de <em>Chemical Assault</em>, passando por álbuns marcantes como <em>Annihilation
+                        Process</em>
+                    e <em>Scenarios of Brutality</em>, até o mais recente <em>Unholy Retribution</em>, o Violator mantém
+                    viva a essência
+                    do metal extremo.
+                </p>
+                <p>
+                    O espírito do “Thrash Until Death” segue presente em cada música, mantendo o legado de resistência e
+                    atitude contra todas as formas de opressão.
+                </p>
+            </div>
+            <div class="sobre-img">
+                <img src="imgs/violator-live.jpg" alt="Violator ao vivo">
+            </div>
+        </div>
+    </section>
+
+
+    <section id="discografia">
+        <h2 class="section-title">Discografia</h2>
+        <div class="carousel">
+            <button class="carousel-btn prev">&#10094;</button>
+            <div class="carousel-track-container">
+                <ul class="carousel-track">
+                    <li class="carousel-slide">
+                        <a href="https://open.spotify.com/intl-pt/album/1TH5k2rVx1vAZb4YchmcbA" target="_blank">
+                            <img src="imgs/Chemical.jpg" alt="Álbum 1">
+                        </a>
+                    </li>
+                    <li class="carousel-slide">
+                        <a href="https://open.spotify.com/intl-pt/album/2zxbDb9cnixcoAoNtPshHx" target="_blank">
+                            <img src="imgs/annihilation.jpg" alt="Álbum 2">
+                        </a>
+                    </li>
+                    <li class="carousel-slide">
+                        <a href="https://open.spotify.com/intl-pt/album/69jW9XIFPGfqaNXmb8XXQz" target="_blank">
+                            <img src="imgs/Scenarios.jpg" alt="Álbum 3">
+                        </a>
+                    </li>
+                    <li class="carousel-slide">
+                        <a href="https://open.spotify.com/intl-pt/album/49jf5Qqvx0ER8IED8Nj7Wq" target="_blank">
+                            <img src="imgs/Violator.png" alt="Álbum 4">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <button class="carousel-btn next">&#10095;</button>
+        </div>
+    </section>
+
+
 
     <section id="shows">
         <h2 class="section-title">Próximos Shows</h2>
@@ -108,14 +182,18 @@
         </div>
 
         <div class="socials">
-            <a href="#">Instagram</a>
-            <a href="#">YouTube</a>
-            <a href="#">Spotify</a>
-            <a href="#">Bandcamp</a>
+            <a href="https://www.instagram.com/violatorthrash/">Instagram</a>
+            <a href="https://www.youtube.com/watch?v=P5w_iarT_P8&list=PLMww4jbRqyryb9IydWdN6-OEIuu8GmEU4">YouTube</a>
+            <a
+                href="https://open.spotify.com/intl-pt/artist/0lFI9B2QSbFVqS6gAZzg1a?si=8u5WZp0ZQv-FUOPuyrUsSA&utm_medium=share&utm_source=linktree">Spotify</a>
+            <a href="https://violatorthrash.bandcamp.com/album/unholy-retribution">Bandcamp</a>
         </div>
         <p>&copy; 2025 Violator. Todos os direitos reservados.</p>
     </footer>
 
     <script src="js/script.js"></script>
+    <script src="js/carrousel.js"></script>
+
 </body>
+
 </html>
