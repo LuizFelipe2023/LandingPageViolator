@@ -7,7 +7,7 @@ Projeto de interface para a banda **Violator**, focado em divulgar o álbum *Unh
 ## ⚡ Funcionalidades
 - **Hero:** Destaque de lançamento e CTAs.
 - **Discografia:** Carrossel interativo de álbuns.
-- **Shows:** Agenda atualizada (SP, Oslo, Berlim).
+- **Shows:** Agenda Ficticia (SP, Oslo, Berlim).
 - **Contato:** Formulário de mensagens.
 
 ## 🛠️ Tecnologias
